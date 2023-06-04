@@ -293,12 +293,12 @@ body.dark-theme{
 
 }
 
-.home__orbe{
+/* .home__orbe{
   width: 100%;
   height: 500px;
   background: linear-gradient(180deg, rgb(253, 253, 253) 93%, rgb(255, 255, 255) 100%);
   border-radius: 12px 12px 12px 12px;
-}
+} */
 
 .home__img{
   position: absolute;
@@ -354,6 +354,228 @@ cursor: pointer;
 .logos__img img:hover{
   opacity: 6;
 }
+
+
+
+
+#home {
+  background-image: linear-gradient(rgb(9, 5, 54, 0.3), rgb(5, 5, 46, 0.7)),
+    url(/assets/images/Untitled-1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#img_home{
+  height: 100%;
+  width: 100vh;
+}
+
+#home h2 {
+  color: white;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+#home p {
+  width: 50%;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+#home .btn {
+  margin-top: 35px;
+}
+#home a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 13px 35px;
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+#home a.left-btn {
+  color: #fff;
+  background: rgb(25, 25, 68);
+  transition: 0.4s ease;
+}
+
+#home a.left-btn:hover {
+  color: rgb(21, 21, 100);
+  background: #fff;
+}
+
+#home a.right-btn {
+  color: #fff;
+  background: rgb(16, 216, 223);
+  transition: 0.4s ease;
+}
+
+#home a.right-btn:hover {
+  color: rgb(16, 216, 223);
+  background: #fff;
+}
+
+/* this the fearures part of the styling */
+
+#features {
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+}
+
+#features .fea-first {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+#features .fea-box {
+  background: rgb(221, 226, 235);
+  text-align: start;
+  margin-top: 60px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+#features .fea-box i {
+  font-size: 2.5rem;
+  color: 44, 44, 80;
+}
+
+#features .fea-box h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(46, 46, 59);
+  padding: 13px 0 7px 0;
+}
+
+#features .fea-box p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(70, 70, 87);
+}
+
+
+
+
+#registration {
+  padding: 6vw 8vw 6vw 8vw;
+  background-image: linear-gradient(
+      rgba(99, 112, 166, 0.5),
+      rgba(81, 91, 233, 0.5)
+    ),
+    url(/assets/images/child\ pics2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#registration .photoside {
+  color: #fff;
+}
+
+#registration .photoside h1 {
+  color: #fff;
+}
+
+#registration .photoside .time {
+  display: flex;
+  margin-top: 40px;
+}
+
+#registration .photoside .time .date {
+  text-align: center;
+  padding: 14px 35px;
+  background-color: rgba(21, 21, 100);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 35px 0 rgba(32, 39, 235 0.4);
+  border-radius: 50%;
+  margin: 0 5px 10px 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#registration .formside {
+  background: #fff;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 40px 0px;
+  box-shadow: 0 8px 35px 0 rgba(32, 39, 235 0.4);
+} 
+
+#min-child_registration{
+  padding: 6vw 8vw 6vw 8vw;
+  background-image: linear-gradient(
+      rgba(99, 112, 166, 0.5),
+      rgba(81, 91, 233, 0.5)
+    ),
+    url(/assets/images/child\ pics2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+#min-child_registration{
+  background: #fff;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 40px 0px;
+  box-shadow: 0 8px 35px 0 rgba(32, 39, 235 0.4);
+}
+
+#min-child_registration .formside a.left-btn {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 5px 15px;
+  background-color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  color: #fff;
+  background: rgb(25, 25, 68);
+  transition: 0.4s ease;
+  
+} 
+
+#min-child_registration .formside a.left-btn:hover {
+  color: rgb(21, 21, 100);
+  background: #d4ae05;
+}
+
+
+/* Children section of the code */
+
+#child h1{
+  padding: 0vw 8vw ;
+  text-align: center;
+  
+}
+
+#child h2{
+  padding: 0vw 8vw ;
+  text-align: center;
+  
+}
+
 /*=============== POPULAR ===============*/
 
 .popular__container{
@@ -530,8 +752,76 @@ cursor: pointer;
 }
 
 .swiper-button-next{
-  right: calc(50% - 3rem);
-} */
+  right: calc(50% - 3rem)*/
+
+
+
+
+/* our courses section */
+
+
+#course {
+  padding: 8vw 8vw 0 8vw ;
+  text-align: center;
+
+  
+}
+
+#course .courses{
+  text-align: start;
+  background-color: rgb(203, 199, 241);
+  height: 100%;
+  border-radius: 10px;
+  position: relative;
+  padding: 30px;
+}
+
+#course .course-section{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1.5rem;
+  margin-bottom: 80px;
+}
+
+#course .courses img{
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+#course .courses .descriptions{
+  padding: 10px 10px 0 10px;
+}
+
+#course .courses .price-tag{
+  background-color: #101c32;
+  color: #fff;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 80%;
+  bottom: 130px;
+
+}
+
+/* Children section of the code */
+
+#child h1{
+  padding: 0vw 8vw ;
+  text-align: center;
+  
+}
+
+#child h2{
+  padding: 0vw 8vw ;
+  text-align: center;
+  
+}
 /*=============== VALUE ===============*/
 
 .value__container{
@@ -544,17 +834,17 @@ cursor: pointer;
   justify-content: center;
 }
 
-.value__orbe{
+/* .value__orbe{
   width: 266px;
   height: 316;
   background-color: hsl(228, 100%, 97%);
   border-radius: 10px 10px 16px 16px;
-}
+} */
 .value__img{
   /* position: absolute; */
-  width: 250px;
-  height: 300px;
-  overflow: hidden;
+  width: 500px;
+  height: 500px;
+  /* overflow: hidden; */
   border-radius: 10px 10px 12px 12px;
   inset: 0;
   margin: auto;
