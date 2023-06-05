@@ -506,6 +506,11 @@ cursor: pointer;
   font-weight: 600;
 }
 
+.mSlides{
+  width: 100%;
+  
+}
+
 #registration .formside {
   background: #fff;
   border-radius: 9px;
